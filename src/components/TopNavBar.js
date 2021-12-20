@@ -68,7 +68,7 @@ export default class TopNavBar extends Component {
     }
 
     render() {
-        let role = ''
+        let role = 'superadmin'
         let empEmail = ''
         let sysAdminMenuActive = false
         let sysAdminMenuActiveReport = false
@@ -76,8 +76,8 @@ export default class TopNavBar extends Component {
             return <Redirect to='/Login' />
         }
         else if (auth.loggedIn()) {
-            role = auth.getProfile().role
-            role = role.toLowerCase()
+            // role = auth.getProfile().role
+            // role = role.toLowerCase()
 
             empEmail = localStorage.getItem('emp_email')
             if (empEmail === null || empEmail === 'null') {     // check null จาก localstorage คิดว่า returnเป็น string ดักไว้2case เลย 
