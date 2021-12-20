@@ -125,23 +125,6 @@ export default class TopNavBar extends Component {
                                         </NavItem>
                                         : ''}
 
-                                    {role === 'admin' || role === 'lead' || role === 'superadmin' || role === 'sm' ?
-                                        <Dropdown style={{ color: 'white', flex: '1 1 auto', top: '-3px' }} nav isOpen={this.state.reportdropdown} toggle={this.togglereport} onMouseOver={this.mouseOverReport} onMouseLeave={this.mouseLeaveReport}>
-                                            <DropdownToggle nav>
-                                                <span className={sysAdminMenuActive === true ? 'tnav active' : ''}>รายงาน</span>
-                                            </DropdownToggle>
-                                            <DropdownMenu style={{ width: '100%', fontFamily: 'none', textAlign: 'center' }}>
-                                                <LinkContainer to='/Report'>
-                                                    <DropdownItem>รายงานรายเดือน</DropdownItem>
-                                                </LinkContainer>
-                                                <LinkContainer to='/ReportbyProject'>
-                                                    <DropdownItem>รายงานรายโครงการ</DropdownItem>
-                                                </LinkContainer>
-                                            </DropdownMenu>
-                                        </Dropdown>
-                                        : ''}
-
-
                                     {/*<NavItem style={{ flex: 'auto', margin: '5px' }}>
                                         <NavLink className="tnav" exact to="/c">สำหรับดูแลระบบ</NavLink>
                                     </NavItem>*/}
