@@ -1,0 +1,16 @@
+﻿.logininput {
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid #9C9C9C;
+    border-radius:0;
+    color:white;
+}
+
+.logininput, .logininput:focus, .logininput form-control:focus{
+    background-color:transparent;
+    border-color:none;
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    color:white;
+
+}

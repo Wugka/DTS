@@ -1,0 +1,16 @@
+﻿.blackstylepagination .page-link {
+    background-color: rgb(31, 51, 88);
+    color:white;
+    border: 1px solid black;
+}
+
+.blackstylepagination .page-item.disabled .page-link {
+    background-color: rgb(31, 51, 88);
+    border: 1px solid black;
+}
+
+.blackstylepagination .page-item.active .page-link{
+    border:1px solid black;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}

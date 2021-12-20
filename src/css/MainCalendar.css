@@ -1,0 +1,124 @@
+﻿
+.year {
+    color: #E8E8E8;
+    font-size: 25px;
+    font-weight: bold;
+    padding:5px;
+    margin:0;
+    display:inline-block;
+}
+
+.removeborderth td,.removeborderth thead th{
+    border:none;
+}
+
+.triangle-left {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.triangle-right {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*.month-color {
+    color: #27AE60;
+}
+
+.month-hover:hover {
+    color: #27e879 !important;
+}*/
+
+.months {
+    color: white;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px;
+    flex-grow:1;
+}
+
+.month-line {
+    border-color: #E8E8E8;
+}
+
+.days {
+    color: #AAAAAA;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:justify;
+}
+
+
+.week {
+    margin-bottom: 25px;
+    word-spacing: 55px;
+}
+
+
+.active-day {
+    border-color: red !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+    .active-day:focus {
+        outline: none !important;
+        outline-color: transparent;
+    }
+
+.active-month {
+    color: red;
+    background-color: transparent;
+    border-color: #21375F;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.btnColor {
+    background-color: transparent;
+    border: 1px solid transparent;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.available-day {
+    border-color: lawngreen;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+@media(max-width: 768px) {
+    .btnColor {
+        background-color: transparent !important;
+        border:1px solid transparent !important;
+            
+    }
+}
+
+    .btnColor:hover {
+        background-color: #007bff;
+        border: 1px solid transparent;
+    }
+
+/*.btn-secondary:focus{
+    box-shadow:none;
+    -webkit-box-shadow:none;
+}
+
+.btn:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}*/
+
+.redtext{
+    color:red !important;
+}
+
+.greytext{
+    color:grey;
+}

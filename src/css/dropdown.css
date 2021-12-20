@@ -1,0 +1,52 @@
+﻿.addeditformdropdown{
+    background-color:transparent;
+    border:1px solid red;
+}
+
+.blackstyledropdown {
+    border: 1px solid black;
+    background-color: rgb(31, 51, 88);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    padding:3px 3px 3px 10px !important;
+}
+
+.dropdown-toggle::after{
+    float:right;
+    top:10px;
+    color:red;
+    position:relative;
+}
+
+.addeditformdropdown:hover {
+    background-color: #dc3545;
+}
+
+.dropdown .dropdown-menu  {
+    background-color: #dc3545;
+    color: white;
+    overflow:auto;
+}
+
+
+@media(min-width:576px) {
+    .leaderdropdownformgroup {
+        max-width: 28%;
+    }
+}
+
+.emptylistdropdown{
+    width:100%;
+}
+
+.projectDD{
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.projectDD:hover{
+    overflow:visible;
+    white-space:normal;
+}
+

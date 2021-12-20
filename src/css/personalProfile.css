@@ -1,0 +1,15 @@
+﻿.personalProfileInput {
+    color: white !important;
+    background-color: #21375F !important;
+    border: 1px solid black !important;
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+
+.personalProfileInputInvalid {
+    color: white !important;
+    background-color: #21375F !important;
+    border: 1px solid red !important;
+    border-radius: 0;
+    margin-bottom: 5px;
+}

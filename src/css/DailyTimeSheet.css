@@ -1,0 +1,45 @@
+﻿
+.calendar-left {
+    /*height: 500px;*/
+    color: white;
+}
+
+.num-date {
+    font-size: 150px;
+    margin: 0 auto;
+    font-weight: 700;
+    text-align:center;
+}
+
+.day {
+    margin: 0px auto;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    text-align:center;
+}
+
+@media (min-width :600px) and (max-width:768px){
+        .modal-dialog{
+            max-width:610px;
+        }
+}
+
+.event-line {
+    width:100%;
+    position:relative;
+    right:10px;
+    border-bottom: 1px solid white;
+    margin-right:15px;
+}
+
+.reviewdocmodal {
+    background-color: #21375F;
+    color:white;
+   
+}
+
+.modal-header{
+    padding-left:5px;
+}
+

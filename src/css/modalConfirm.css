@@ -1,0 +1,27 @@
+﻿.swal-modal {
+    background-color: #21375F;
+}
+
+    .swal-modal .swal-icon {
+        background-color: #21375F;
+    }
+
+    .swal-modal .swal-icon--success:before {
+        background-color: #21375F;
+    }
+
+    .swal-modal .swal-icon--success:after {
+        background-color: #21375F;
+    }
+
+    .swal-modal .swal-icon--success__hide-corners {
+        background-color: #21375F;
+    }
+
+    .swal-modal .swal-text{
+        color:white;
+    }
+
+    .swal-modal .swal-footer{
+        text-align:center;
+    }

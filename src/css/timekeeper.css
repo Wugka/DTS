@@ -1,0 +1,23 @@
+﻿.clockwrapper .react-timekeeper  {
+    background-color: transparent;
+    box-shadow:none;
+    right:10px;
+    width:100%;
+}
+
+.react-timekeeper .react-timekeeper__top-bar {
+    display: none;
+}
+
+.react-timekeeper .react-timekeeper__clock-wrapper{
+    background-color: transparent;
+    padding: 0;
+}
+
+.react-timekeeper .react-timekeeper__clock {
+    background-color: #19305c;
+}
+
+.clockwrapper input::-webkit-input-placeholder{
+    color:white;
+}

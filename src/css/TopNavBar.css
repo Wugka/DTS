@@ -1,0 +1,32 @@
+﻿.tnav {
+    color: white;
+    font-size: 24px;
+    font-family:DbAdmanLight;
+}
+
+.tnav .active {
+    border-bottom: 3px solid red;
+}
+
+.tnav .nav-link{
+    color:white;
+    padding-bottom:0;
+}
+
+    .tnav:hover, .tnav .nav-link:hover {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+
+    .tnav .dropdown-item{
+        color:white;
+    }
+
+    .tnav .dropdown-item:hover {
+        background-color: lightblue;
+    }
+
+    .tnav .dropdown-item.active, .tnav .dropdown-item:active {
+        border-bottom: none;
+    }

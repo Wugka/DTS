@@ -1,0 +1,36 @@
+﻿.tableresult tr td {
+    border: 1px solid black;
+}
+
+.tableresult .table-bordered th {
+    border: 1px solid black;
+}
+
+.tableresult thead th{
+    border : 1px solid black;
+}
+
+.tableresult tbody tr:nth-child(2n + 2) {
+    background-color: #1F3358;
+}
+
+.faltutable {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+
+    .faltutable::-webkit-scrollbar {
+        height:12px;
+        background-color: transparent;
+    }
+
+    .faltutable::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    .faltutable::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius:10px;
+    }

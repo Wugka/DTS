@@ -1,0 +1,23 @@
+﻿.modal_container .picker_container {
+    right: 30px;
+    margin: 0;
+    background-color: #19305c;
+}
+
+.picker_point.point_inner, .picker_point.point_outter {
+    color: white;
+}
+
+.time_picker_modal_header{
+    display:none;
+}
+
+.modal_container {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.time_picker_container input::-webkit-input-placeholder{
+    color:white;
+}

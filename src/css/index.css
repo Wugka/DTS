@@ -1,0 +1,11 @@
+﻿@font-face {
+    font-family: 'DbAdman';
+    src: local('DbAdman'), url(../fonts/DbAdmanx.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'DbAdmanLight';
+    src: local('DbAdmanLight'), url(../fonts/DBAdmanXLi.ttf) format('truetype')
+}
+
+

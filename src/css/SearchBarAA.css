@@ -1,0 +1,14 @@
+﻿
+@media (max-width:375px) {
+    .dblock {
+        display: block;
+    }
+
+
+}
+
+@media(max-width:320px){
+    .btnmargin{
+        margin-top: 10px;
+    }
+}

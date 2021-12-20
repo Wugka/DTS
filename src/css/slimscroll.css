@@ -1,0 +1,13 @@
+﻿
+.slimscrolltext::-webkit-scrollbar{
+    width: 0.5em;
+    background-color: transparent;
+}
+
+.slimscrolltext::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.slimscrolltext::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}

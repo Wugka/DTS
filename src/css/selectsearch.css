@@ -1,0 +1,106 @@
+﻿
+.selectsearchdts__menu-list {
+    background-color: #dc3545;
+    color: white;
+}
+
+    .selectsearchdts__menu-list::-webkit-scrollbar {
+        width: 0.5em;
+        background-color:transparent;
+    }
+
+    .selectsearchdts__menu-list::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    .selectsearchdts__menu-list::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .selectsearchdts__control {
+        background-color: #dc3545 !important;
+        border: none !important;
+    }
+
+.selectsearchdts__option--is-focused.css-1n7v3ny-option{
+    background-color:lightblue;
+}
+
+/*.selectsearchdts__placeholder.css-1wa3eu0-placeholder {
+    color: white;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    max-width: 95%/*calc(100% - 8px);
+}*/
+
+.selectsearchdts__menu-notice.selectsearchdts__menu-notice--no-options {
+    color: white;
+}
+
+.selectsearchdts__single-value.css-1uccc91-singleValue{
+    color:white;
+}
+
+.selectsearchdts__input{
+    color:white;
+}
+
+.selectsearchdtsblackstyle__menu-list {
+    background-color: #dc3545;
+    color: white;
+}
+
+    .selectsearchdtsblackstyle__menu-list::-webkit-scrollbar {
+        width: 0.5em;
+        background-color: transparent;
+    }
+
+    .selectsearchdtsblackstyle__menu-list::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    .selectsearchdtsblackstyle__menu-list::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+.selectsearchdtsblackstyle__control {
+    background-color: rgb(31, 51, 88) !important;
+    border: 1px solid black !important;
+    border-radius: unset !important;
+    min-height:30px !important;
+    max-height:30px !important;
+}
+
+.selectsearchdtsblackstyle__option--is-focused.css-1n7v3ny-option {
+    background-color: lightblue;
+}
+
+.selectsearchdtsblackstyle__placeholder.css-1wa3eu0-placeholder {
+    color: white;
+}
+
+.selectsearchdtsblackstyle__menu-notice {
+    color: white !important;
+}
+
+.selectsearchdtsblackstyle__single-value.css-1uccc91-singleValue {
+    color: white;
+    top:45%;
+}
+
+.selectsearchdtsblackstyle__input {
+    color: white;
+    position:relative;
+    top:-2px;
+}
+
+.selectsearchdtsblackstyle__indicator-separator{
+    display:none;
+}
+
+.selectsearchdtsblackstyle__indicator{
+    padding: 3px 5px 5px 5px !important;
+    color:red !important;
+}
+

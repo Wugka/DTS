@@ -1,0 +1,16 @@
+﻿.projTextbox {
+    color: white !important;
+    background-color: rgb(31, 51, 88) !important;
+    border: 1px solid black !important;
+    height: 30px;
+    border-radius: 0;
+}
+
+.projTextboxInvalid {
+    color: white !important;
+    background-color: rgb(31, 51, 88) !important;
+    border: 1px solid red !important;
+    height: 30px;
+    border-radius: 0;
+}
+
